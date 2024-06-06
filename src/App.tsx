@@ -11,7 +11,7 @@ function App() {
     const { getPokemon, pokemon, loading, notFound } = usePokemons({ search });
 
     return (
-        <main>
+        <>
             <Logo />
             <Searchbar
                 query={search}
@@ -34,7 +34,7 @@ function App() {
                     </h2>
                 </div>
             )}
-        </main>
+        </>
     );
 }
 
