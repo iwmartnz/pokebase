@@ -1,4 +1,4 @@
-# Fontend development technical assessment.
+# Frontend development technical assessment.
 
 ## Objective
 
