@@ -89,3 +89,45 @@ npm run deploy
 ```
 
 And you’re done!
+
+## Instructions on how to run the app locally
+
+Step 1: On GitHub.com, navigate to the main page of the repository.
+
+Step 2: Above the list of files, click Code.
+
+Step 3: Copy the URL for the repository.
+
+-   To clone the repository using HTTPS, under "HTTPS", click .
+-   To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click SSH, then click .
+-   To clone a repository using GitHub CLI, click GitHub CLI, then click .
+
+Step 4: Open Terminal.
+
+Step 5: Change the current working directory to the location where you want the cloned directory.
+
+Step 6: Type git clone, and then paste the URL you copied earlier.
+
+```js
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+
+Step 7: Install dependencies
+Type the following command in the terminal to install the necessary dependencies:
+
+```js
+npm install
+```
+
+Press Enter to execute the command. npm will then download and install all the dependencies listed in the project’s `package.json` file.
+
+Step 8: Start the Project
+Once all the dependencies are installed, you’re ready to start the project. In many Node.js projects, this is done by running a command like `npm start` or `node app.js`.
+
+Type the appropriate command in the terminal and press Enter to start the project:
+
+```js
+npm start
+```
+
+This command will execute the script defined in the `”start”` field of the `scripts` object in the `package.json` file.
