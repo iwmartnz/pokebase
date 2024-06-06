@@ -39,14 +39,14 @@ export default defineConfig({
 });
 ```
 
-Step 3: Installed gh-pages
+Step 3: Install gh-pages
 Install gh-pages package as a dev dependency.
 
 ```js
 npm install gh-pages --save-dev
 ```
 
-Step 4: Updated package.json
+Step 4: Update package.json
 Update package.json with the following predeploy and deploy scripts.
 
 ```js
@@ -57,20 +57,20 @@ Update package.json with the following predeploy and deploy scripts.
 }
 ```
 
-Add the complete website URL by setting homepage in package.json
+Add the complete website URL by setting homepage in package.json e.g
 
 ```js
-"homepage": "https://{username}.github.io/{repo-name}/"
+"homepage": "https://iwmartnz.github.io/pokebase/"
 ```
 
-Thus, your updated package.json will look like this:
+Thus, your updated package.json will look like this: e.g
 
 ```js
 {
   "name": "poke",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://{username}.github.io/pokebase/",
+  "homepage": "https://iwmartnz.github.io/pokebase/",
   "type": "module",
   "scripts": {
     "predeploy" : "npm run build",
@@ -98,9 +98,9 @@ Step 2: Above the list of files, click Code.
 
 Step 3: Copy the URL for the repository.
 
--   To clone the repository using HTTPS, under "HTTPS", click .
--   To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click SSH, then click .
--   To clone a repository using GitHub CLI, click GitHub CLI, then click .
+-   To clone the repository using HTTPS, click under "HTTPS" .
+-   To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click SSH.
+-   To clone a repository using GitHub CLI, click GitHub CLI.
 
 Step 4: Open Terminal.
 
@@ -109,7 +109,7 @@ Step 5: Change the current working directory to the location where you want the 
 Step 6: Type git clone, and then paste the URL you copied earlier.
 
 ```js
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+git clone https://github.com/iwmartnz/pokebase.git
 ```
 
 Step 7: Install dependencies
