@@ -1,1 +1,41 @@
+.logo-container {
+    display: flex;
+    justify-content: center;
 
+    width: 100%;
+    padding: 40px 0;
+}
+
+.searchbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.searchbar input {
+    background-color: var(--color-bg-secondary);
+    width: 300px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    text-indent: 12px;
+    font-weight: 600;
+}
+
+.searchbar input::placeholder {
+    color: var(--color-text-secondary);
+    font-weight: 600;
+}
+
+.searchbar button {
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: var(--color-accent);
+}
