@@ -10,7 +10,9 @@ type SearchbarProps = {
 function Searchbar({ query, setQuery, getPokemon }: SearchbarProps) {
     function handleChange(event: React.ChangeEvent<HTMLInputElement>) {
         const { value } = event.target;
-        setQuery(value);
+        const pokemonQuery = value.toLowerCase();
+
+        setQuery(pokemonQuery);
     }
 
     function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
@@ -24,7 +26,7 @@ function Searchbar({ query, setQuery, getPokemon }: SearchbarProps) {
                 type='text'
                 name=''
                 id=''
-                placeholder='e.g Charizard'
+                placeholder='e.g charizard'
                 value={query}
                 onChange={handleChange}
             />
